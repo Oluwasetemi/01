@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Romantic Couple';
+    src: url('Romantic\ Couple.ttf');
+
+    font-style: 600;
+    font-weight: normal;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.hello {
+    color: red;
+    background-image: url('./temi.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Romantic Couple';
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+img {
+    /* width: 100px; */
+    /* height: 200px; */
+    border: 2px solid hsl(61, 88%, 50%)
+}
